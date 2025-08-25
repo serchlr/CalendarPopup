@@ -6,6 +6,12 @@
 
 ---
 
+## 🖼 Muestra CalendarPopup
+
+<p align="center">
+  <img src="assets/Calendar-demo.png" alt="Demo CalendarPopup" width="300"/>
+</p>
+
 ## ✨ Características
 
 - Selector de fecha intuitivo para Swing.
