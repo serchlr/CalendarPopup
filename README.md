@@ -33,6 +33,40 @@
 
 ## 📦 Instalación
 
+### Opción 1: Maven (Recomendada)
+Agrega el repositorio de JitPack y la dependencia en tu `pom.xml`:
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>[https://jitpack.io](https://jitpack.io)</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.serchlr</groupId>
+        <artifactId>CalendarPopup</artifactId>
+        <version>v1.0.1</version>
+    </dependency>
+</dependencies>
+```
+
+### Opción 2: Gradle
+Agrega JitPack en tu build.gradle (al final de los repositorios) y luego la dependencia:
+```xml
+repositories {
+    mavenCentral()
+    maven { url '[https://jitpack.io](https://jitpack.io)' }
+}
+
+dependencies {
+    implementation 'com.github.serchlr:CalendarPopup:v1.0.1'
+}
+```
+
+### Opción 3: Manual
 1. Clona este repositorio:  
 
 	 ```bash
@@ -124,7 +158,8 @@ También puedes definir un formato personalizado:
 
 ## 📝 Historial de versiones
 
-v1.0.0 – 13 de agosto de 2025 – Versión inicial.
+- *v1.0.1* – 17 de octubre de 2026 – Integración en JitPack
+- *v1.0.0* – 13 de agosto de 2025 – Versión inicial.
 
 ## 📄 Licencia
 
